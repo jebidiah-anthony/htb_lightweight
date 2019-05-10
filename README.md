@@ -368,7 +368,7 @@ PORT    STATE SERVICE VERSION
 ## PART 5 : Privilege Escalation (ldapuser1 -> root)
 
 1. SSH (ldapuser1) terminal:
-   ```
+   ```console
    ls -lah
    # drwx------.  4 ldapuser1 ldapuser1  181 Jun 15  2018 .
    # drwxr-xr-x. 21 root      root      4.0K May  9 20:10 ..
