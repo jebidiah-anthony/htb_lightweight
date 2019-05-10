@@ -390,7 +390,7 @@ PORT    STATE SERVICE VERSION
    __NOTES__:
    - __*capture.pcap*__ is a tcpdump file with ldapuser2's credentials
    - __*ldapTLS.php*__ is an ldap authentication script for ldapuser1
-   - `openssl` and `tcpdump` doesn't have SUID bits but has other [capabilities](http://man7.org/linux/man-pages/man7/capabilities.7.html)
+   - `openssl` and `tcpdump` doesn't have an SUID bit but they have [capabilities](http://man7.org/linux/man-pages/man7/capabilities.7.html)
    - `openssl` has an empty capability set (__*=ep*__)
      ```
      Note that one can assign empty capability sets to a program file, and
