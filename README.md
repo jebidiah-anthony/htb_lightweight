@@ -431,6 +431,7 @@ PORT    STATE SERVICE VERSION
       # ...
       # ldapuser1:$6$OZfv1n9v$2gh4EFIrLW5hZEEzrVn4i8bYfXMyiPp2450odPwiL5yGOHYksVd8dCTqeDt3ffgmwmRYw49cMFueNZNOoI6A1.:17691:365:99999:7:::
       # ldapuser2:$6$xJxPjT0M$1m8kM00CJYCAgzT4qz8TQwyGFQvk3boaymuAmMZCOfm3OA7OKunLZZlqytUp2dun509OBE2xwX/QEfjdRQzgn1:17691:365:99999:7:::
+      # ...
       ```
       __NOTE__:
       - All the files in the system are now readable
@@ -477,9 +478,6 @@ PORT    STATE SERVICE VERSION
       saslauth:!!:17691::::::
       ldapuser1:$6$OZfv1n9v$2gh4EFIrLW5hZEEzrVn4i8bYfXMyiPp2450odPwiL5yGOHYksVd8dCTqeDt3ffgmwmRYw49cMFueNZNOoI6A1.:17691:365:99999:7:::
       ldapuser2:$6$xJxPjT0M$1m8kM00CJYCAgzT4qz8TQwyGFQvk3boaymuAmMZCOfm3OA7OKunLZZlqytUp2dun509OBE2xwX/QEfjdRQzgn1:17691:365:99999:7:::
-      10.10.14.2:clJFBL7EDs1H6:17851:0:99999:7:::
-      10.10.12.145:cohvDH7us8ZQ6:18026:0:99999:7:::
-      10.10.12.29:jrqeUQ5O.nc/6:18026:0:99999:7:::
       10.10.13.21:ux7Et3/RH9Izs:18026:0:99999:7:::
       ```
       ```console
@@ -496,6 +494,7 @@ PORT    STATE SERVICE VERSION
       # ...
       # ldapuser1:$6$OZfv1n9v$2gh4EFIrLW5hZEEzrVn4i8bYfXMyiPp2450odPwiL5yGOHYksVd8dCTqeDt3ffgmwmRYw49cMFueNZNOoI6A1.:17691:365:99999:7:::
       # ldapuser2:$6$xJxPjT0M$1m8kM00CJYCAgzT4qz8TQwyGFQvk3boaymuAmMZCOfm3OA7OKunLZZlqytUp2dun509OBE2xwX/QEfjdRQzgn1:17691:365:99999:7:::
+      # ...
       ```
       __NOTE__:
       - The __root__ password hash has been updated.
